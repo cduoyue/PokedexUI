@@ -18,6 +18,11 @@ It integrates with the [PokeAPI](https://pokeapi.co) to fetch and display Pokém
 
 PokedexUI implements a **Protocol-Oriented MVVM** architecture with **Clean Architecture** principles. It features generic data fetching, SwiftData persistence, and reactive UI updates using Swift's `@Observable` macro.
 
+## Theming 🎨
+- Primary accent color: Blue `#3898fe`
+- App constant: `Color.pokedexAccent`
+- Used for: global `.tint(...)` and navigation bar background
+
 ## Key Architectural Benefits
 - ✅ **Protocol-Oriented**: Enables dependency injection and easy testing
 - ✅ **Generic Data Flow**: Unified pattern for all data sources  

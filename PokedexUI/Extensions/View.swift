@@ -11,7 +11,7 @@ extension View {
                         .foregroundStyle(.white)
                 }
             }
-            .toolbarBackground(Color.pokedexRed ?? .red, for: .navigationBar)
+            .toolbarBackground(Color.pokedexAccent ?? .blue, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .background(Color.darkGrey)
     }

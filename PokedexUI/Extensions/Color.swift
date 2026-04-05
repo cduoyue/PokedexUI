@@ -2,7 +2,8 @@ import SwiftUI
 
 extension Color {
     static let darkGrey = Color(hex: "222222")
-    static let pokedexRed = Color(hex: "d53b47")
+    // Primary accent color for the app (set to blue)
+    static let pokedexAccent = Color(hex: "3898fe")
     static let orange = Color(hex: "f89e2e")
     static let blue = Color(hex: "3898fe")
     static let grey = Color(hex: "8db6d2")

@@ -115,7 +115,7 @@ private extension TabView {
     ) -> some View {
         self
             .task { await viewModel.requestPokemon() }
-            .tint(Color.pokedexRed)
+            .tint(Color.pokedexAccent)
             .colorScheme(.dark)
     }
 }

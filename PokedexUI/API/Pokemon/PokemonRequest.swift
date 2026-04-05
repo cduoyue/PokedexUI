@@ -17,7 +17,7 @@ enum PokemonRequest: Requestable {
 
     var parameters: HTTP.Parameters {
         switch self {
-            case .pokemon: [ParameterKey.limit.rawValue: "1150"]
+            case .pokemon: [ParameterKey.limit.rawValue: "1011"]
             default: HTTP.Parameters()
         }
     }
